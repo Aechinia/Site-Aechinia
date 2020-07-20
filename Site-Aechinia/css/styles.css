@@ -27,11 +27,14 @@ html, body {
 }
 .title-text-quem{
     font-size: 43px;
-    font-weight: lighter
+    font-weight: lighter;
+    color: black;
+    margin-top: 50;
 }
 .content-text-quem{
     font-size: 20px;
-    font-weight: lighter
+    font-weight: lighter;
+    font-family: Circular Std;
 }
 .saiba-mais{
     background-color: #0f8afd;
@@ -48,14 +51,30 @@ html, body {
 }
 .div-oque-fazemos{
     background-color: #3366ff;
-    font-family: leahlee;
+    font-family: Circular Std;
 }
 .Telas{
-    width:100%;
+    max-width: 162px;
+    max-height: 350px;
+    margin-bottom: 100px;
 }
-.div-oque-e-ansiedade{
+.div-oque-e-ansiedade, footer{
     background-color: #e1f5f5;
 }
-.footer{
-    background-color: #e1f5f5;  
+.title-icons{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.text-icons, .title-icons{
+    font-weight: bold;
+    color: black;
+}
+.text-icons{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.easter{
+    color: #e1f5f5;
+    margin-top: 250px;
+    margin-bottom: 250px;
 }
