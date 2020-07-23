@@ -1,6 +1,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: leahlee;
@@ -27,35 +28,92 @@ html, body {
 }
 .title-text-quem{
     font-size: 43px;
-    font-weight: lighter
+    font-weight: lighter;
+    color: black;
+    margin-top: 50;
 }
 .content-text-quem{
     font-size: 20px;
-    font-weight: lighter
+    font-weight: lighter;
+    font-family: Circular Std;
+    color: black;
 }
-.saiba-mais{
+a.sm:hover, a.sm:link{
+    color: white;
+    text-decoration: none; 
+    display:inline-block;
+    padding: 6px 35px;
     background-color: #0f8afd;
     border-radius: 16px;
     border-width: 0px;
+    box-shadow: -2px 2px 15px -4px #000000;
     font-family: Circular Std;
-    color: white;
+    margin-top: 30px;
     margin-bottom: 120px;
-    width: 150px;
-    height: 35px;
 }
 .logo{
     width:45px;
 }
 .div-oque-fazemos{
     background-color: #3366ff;
-    font-family: leahlee;
+    font-family: Circular Std;
 }
 .Telas{
-    width:100%;
+    max-width: 162px;
+    max-height: 350px;
+    margin-bottom: 100px;
 }
-.div-oque-e-ansiedade{
+.div-oque-e-ansiedade, footer, .btn-light{
     background-color: #e1f5f5;
 }
-.footer{
-    background-color: #e1f5f5;  
+.title-icons{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.text-icons, .title-icons{
+    font-weight: bold;
+    color: black;
+}
+.text-icons{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.easter{
+    color: #e1f5f5;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+.div-contact{
+    border-radius: 2px;
+    box-shadow: -2px 1px 15px -5px;
+    border-width: 1mm;
+    margin-bottom: 40px;
+}
+.text-contact, .text-contact-2{
+
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Circular Std;
+    color: black;
+    background-color: #3366ff;
+}
+.text-contact{
+    margin-bottom: 50px;
+}
+.icons{
+    max-width: 25px;
+    max-height: 25px;
+    margin-bottom: 120px;
+}
+.form-control{
+    background-color: #3366ff;
+    border-width: 0px;
+    margin-bottom: 22px;
+}
+.btn-light{
+    margin-top: 86px;
+    margin-bottom: 16px;
+}
+#quemsomos{
+    margin-top: 0px;
 }
