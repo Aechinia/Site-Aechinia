@@ -1,0 +1,160 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: leahlee;
+    src: url("/css/fonts/212 Leahlee Sans.ttf");
+}
+@font-face {
+    font-family: Circular Std;
+    src: url("/css/fonts/CircularStd-Book.otf");
+}
+
+.div-header{
+    background-color: #3366ff;
+    font-family: leahlee;
+}
+.div-quem_somos{
+    background-color: #e1f5f5;
+    font-family: Circular Std;
+}
+.text-header{
+    color: #ff9999;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 50px;
+    margin-top: 40px;
+}
+.title-text-quem{
+    font-size: 43px;
+    font-weight: lighter;
+    color: black;
+    margin-top: 65px;
+}
+.content-text-quem{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Circular Std;
+    color: black;
+    margin-bottom: 45px;
+}
+a.sm:hover, a.sm:link{
+    color: white;
+    text-decoration: none; 
+    display:inline-block;
+    padding: 6px 35px;
+    background-color: #0f8afd;
+    border-radius: 16px;
+    border-width: 0px;
+    box-shadow: -2px 2px 15px -4px #000000;
+    font-family: Circular Std;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.logoA{
+    width:45px;
+    margin-top: 11px;
+    margin-left: 6px;
+}
+.logoBC, .logo{
+    width: 45px;
+    margin-top: 7px;
+
+}
+.div-oque-fazemos{
+    background-color: #3366ff;
+    font-family: Circular Std;
+}
+.Telas{
+    max-width: 300px;
+    max-height: 646px;
+    margin-bottom: 100px;
+}
+.div-oque-e-ansiedade, footer, .btn-light{
+    background-color: #e1f5f5;
+}
+.title-icons{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.logoAlert{
+    margin-right: 15px;
+    width: 45px;
+    margin-top: 7px;
+}
+.text-icons, .title-icons{
+    font-weight: bold;
+    color: black;
+}
+.text-icons{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.text-iconsA{
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+}
+.easter{
+    color: #e1f5f5;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+.div-contact{
+    border-radius: 2px;
+    box-shadow: -2px 1px 15px -5px;
+    border-width: 1mm;
+    margin-bottom: 40px;
+}
+.text-contact, .text-contact-2{
+
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Circular Std;
+    color: black;
+    background-color: #3366ff;
+}
+.text-contact{
+    margin-bottom: 50px;
+}
+.icons{
+    max-width: 25px;
+    max-height: 25px;
+    margin-bottom: 120px;
+}
+.form-control{
+    background-color: #3366ff;
+    border-width: 0px;
+    margin-bottom: 22px;
+}
+.btn-light{
+    margin-top: 86px;
+    margin-bottom: 16px;
+}
+#quemsomos{
+    margin-top: 0px;
+}
+.features-text{
+    margin-bottom: 50px;
+}
+.form-contato{
+    background-color: #4D79FF;
+    border-width: 1px;
+    border-color: #123AB3;
+}
+.FORM:focus{
+    background-color: #6F9EFF;
+    border-width: 1px;
+    border-color: #123AB3;
+}
+#inputs{
+    width:300px;
+}
+#text-anxiety{
+    text-align: justify;
+    margin-right: 25px;
+}
